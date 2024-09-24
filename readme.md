@@ -45,3 +45,5 @@ We'd like to embed each chunk of sentences into its own numerical representation
 That'll give us a good level of granularity
 
 We can dive specifically into the text_sample that was used in our model
+
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
