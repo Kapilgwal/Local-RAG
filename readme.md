@@ -33,7 +33,7 @@ The concept of splitting larger pieces of text into smaller ones is often referr
 
 There are frameworks which can do things like langchain but we will like to try by ourself then langchain
 
-# Why do we do chinking
+# Why do we do chunking
 1. So our text are easier to filter
 2. So our text chunks can fit into our embedding model context window
 3. So our contexts passed to an LLM can be more specified and focused
@@ -46,4 +46,15 @@ That'll give us a good level of granularity
 
 We can dive specifically into the text_sample that was used in our model
 
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/
+
+# RAG : search and answer
+RAG goal is tor retrieve relevvent passages based on a query and use theose passage to augment an input into an llm so it can generate an output based on those relevent passages
+
+Similarity Search 
+
+Embedding can be used for almost any type of data
+like images,sound,text into embeddings etc....
+
+Comparing embedding is known as similarity search,vector search, semantic search.
+
